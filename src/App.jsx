@@ -1,6 +1,6 @@
 import './App.css'
-import Home from './Pages/Home'
-import Shop from './Pages/Shop'
+import Home from './Clase 4/Pages/Home'
+import Shop from './Clase 4/Pages/Shop'
 
 
 function App() {
