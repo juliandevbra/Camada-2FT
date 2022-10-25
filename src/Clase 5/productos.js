@@ -1,4 +1,4 @@
-const produtos = [
+export const productos = [
     {
       nombre: "Macbook Air 13 Chip M1 256gb",
       imagen: "https://m.media-amazon.com/images/I/41O807iqbCL._AC_SX522_.jpg",

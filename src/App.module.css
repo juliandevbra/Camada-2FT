@@ -1,0 +1,24 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .card{
+    background-color: black;
+    border: 2px solid #fff;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .imagen{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  .titulo{
+    font-size: 1em;
+  }
+  .precio{
+    font-size: .7em;
+  }
