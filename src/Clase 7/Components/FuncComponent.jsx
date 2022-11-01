@@ -12,7 +12,9 @@ const FuncComponent = () =>{
         <button onClick={() => setUser({...user, count: user.count-1})}>Restar al contador</button>
         {console.log(user)}
         <h2>{user.name}</h2>
-        <button onClick={() => setUser({count: 0, name: 'Julian'})}>Mi nombre no es vicky</button>
+        <button onClick={() => setUser(prev => {
+            return {...prev, count: prev.count, name: prev.name}
+        })}>Mi nombre no es vicky</button>
         </div>
 }
 
