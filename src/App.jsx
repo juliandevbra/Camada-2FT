@@ -1,15 +1,16 @@
 import { useState } from 'react'
 import './App.css'
-import Inputexample from './Clase 8/Components/Inputexample'
-import Register from './Clase 8/Pages/Register'
+import ClassComponent from './Clase 13/Components/ClassComponent'
+import FuncComponent from './Clase 13/Components/FuncComponent'
 
 function App() {
 
+  const [boton, setBoton] = useState(false)
 
   return (
     <div className="App">
-        {/* <Inputexample/> */}
-        <Register/>
+      {boton ? <ClassComponent/> : <FuncComponent />}
+      <button onClick={() => setBoton(!boton)}>Cambiar de componente</button>
     </div>
   )
 }
