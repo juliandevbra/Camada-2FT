@@ -8,14 +8,17 @@ const FuncComponent = () =>{
     React.useEffect(() => {
         console.log('Esto se ejecuta una sola vez')
 
+
+    }, [])
+
+
+    React.useEffect(() => {
+        console.log('Esto se ejecuta cuando user se actualiza')
+
         //Comparación con component will unmount
         return () => {
             console.log('Esto se ejecuta cuando el componente se desmonta')
         }
-    }, [])
-
-    React.useEffect(() => {
-        console.log('Esto se ejecuta cuando user se actualiza')
     }, [user])
 
     return <div>
