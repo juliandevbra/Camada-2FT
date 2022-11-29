@@ -1,14 +1,15 @@
-import { useState } from 'react'
 import './App.css'
-import LoboEstepario from './Clase 19/LoboEstepario'
-import ParentComponent from './Clase 19/ParentComponent'
+import Counter from './Clase 20/Counter'
+import UserList from './Clase 20/UserList'
+
+
 
 function App() {
 
   return (
     <div className="App">
-      <ParentComponent/>
-      <LoboEstepario />
+      <Counter/>
+        <UserList/>
     </div>
   )
 }
