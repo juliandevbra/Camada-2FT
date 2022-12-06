@@ -1,15 +1,11 @@
 import './App.css'
-import Counter from './Clase 20/Counter'
-import UserList from './Clase 20/UserList'
-
-
+import ContactForm from './Clase 23/ContactForm'
 
 function App() {
 
   return (
     <div className="App">
-      <Counter/>
-        <UserList/>
+        <ContactForm/>
     </div>
   )
 }

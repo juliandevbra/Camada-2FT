@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Counter from './Clase 20/Counter'
 import LSexample from './Clase 20/LSexample'
+import UserList from './UserList'
 
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
       {parsedUser?.name}
       <LSexample/>
       <button onClick={borrarLocal}>borrar</button>
+      <Counter/>
+      <UserList/>
     </div>
   )
 }
