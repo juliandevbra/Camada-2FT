@@ -7,8 +7,8 @@ function App() {
 
   return (
     <div className="App">
-      {/* <FetchAxios/>
-      <AsyncAwait/> */}
+      <FetchAxios/>
+      <AsyncAwait/>
       <UseMemo/>
     </div>
   )
