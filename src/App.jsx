@@ -1,13 +1,18 @@
 import './App.css'
-import ContactForm from './Clase 23/ContactForm'
+import AsyncAwait from './Clase 25/AsyncAwait'
+import FetchAxios from './Clase 25/FetchAxios'
+import UseMemo from './Clase 25/UseMemo'
 
 function App() {
 
   return (
     <div className="App">
-        <ContactForm/>
+      {/* <FetchAxios/>
+      <AsyncAwait/> */}
+      <UseMemo/>
     </div>
   )
 }
 
 export default App
+
